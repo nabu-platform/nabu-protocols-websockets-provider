@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>nabu.protocols.websockets</groupId>
 	<artifactId>provider</artifactId>
-	<version>1.1-SNAPSHOT</version>
+	<version>${nabu.protocols.websockets-provider-version}</version>
 	<name>provider</name>
 	
 	<parent>
@@ -21,7 +21,7 @@
 		</dependency>
 		<dependency>
 			<groupId>nabu.services</groupId>
-			<artifactId>authorization-vm</artifactId>
+			<artifactId>authorization</artifactId>
 		</dependency>
 	</dependencies>
 </project>
